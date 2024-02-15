@@ -1,0 +1,113 @@
+@media (max-width:991px) {
+    section {
+        padding: 30px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+
+    /* Navbar */
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+    .banner_wrapper {
+        padding: 200px 0;
+    }
+
+    /* About */
+
+    .about_wrapper ul.nav-pills {
+        width: 51%;
+        margin: auto;
+    }
+
+    /* skills */
+
+    .skills_wrapper ul.nav-pills {
+        width: 68%;
+        margin: auto;
+    }
+
+
+    /* Portfolio */
+
+    .portfolio_wrapper .card {
+        min-height: 400px;
+    }
+
+    /* Footer */
+
+    .footer_wrapper {
+        height:100%;
+    }
+
+}  
+
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .about_wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+
+    .about_wrapper ul li .nav-link {
+        font-size: 13px;
+    }
+
+    .skills_wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+
+    .skills_wrapper ul li .nav-link {
+        font-size: 13px;
+    }
+
+    .portfolio_wrapper .card {
+        min-height: 500px;
+    }
+
+    footer_wrapper .footer-logo img{
+        width: 80px;
+    }
+
+    .footer_wrapper .social-icon a{
+        width: 25px;
+        height:25px;
+        font-size: 10px;
+        line-height: 21px;
+    }
+
+}
+
